@@ -1,0 +1,191 @@
+                body {
+                    background: url(file:///C:/Users/agata/OneDrive/Documentos/Coding/Social%20proof%20section/social-proof-section-master/images/bg-pattern-top-desktop.svg), url(file:///C:/Users/agata/OneDrive/Documentos/Coding/Social%20proof%20section/social-proof-section-master/images/bg-pattern-bottom-desktop.svg);
+                    font-size: 15px;
+                    font-family: 'Spartan', sans-serif;
+                    box-sizing: border-box;
+                    background-position: top left, bottom right;
+                    background-repeat: no-repeat;
+                }
+                
+                .topflex {
+                    text-align: left;
+                    padding: 2% 9% 5% 10%;
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .top {
+                        width: 40%;
+                        display: inline-block;
+                    }
+                }
+                
+                .title {
+                    color: hsl(300, 43%, 22%);
+                    font-weight: 700;
+                    font-size: 40px;
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .title-desktop {
+                        text-align: left;
+                    }
+                }
+                
+                @media only screen and (max-width: 900px) {
+                    .title-mobile {
+                        text-align: center;
+                        font-size: 30px;
+                    }
+                }
+                
+                .subtitle {
+                    color: hsl(300, 43%, 22%);
+                    padding-top: 5px;
+                    line-height: 2;
+                    font-weight: 400;
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .subtitle-desktop {
+                        text-align: left;
+                    }
+                }
+                
+                @media only screen and (max-width: 900px) {
+                    .subtitle-mobile {
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                }
+                
+                .rates-all {
+                    float: right;
+                    margin-top: 20px;
+                }
+                
+                @media only screen and (max-width: 900px) {
+                    .rates-all-mobile {
+                        float: none;
+                    }
+                }
+                
+                .rates {
+                    list-style: none;
+                    background-color: hsl(300, 24%, 96%);
+                    border-radius: 13px;
+                    text-align: center;
+                    margin: 15px;
+                    padding: 7px 20px 7px 15px;
+                    ;
+                    color: hsl(300, 43%, 22%);
+                    font-weight: 700;
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .rate-position {
+                        position: relative;
+                        right: 24%;
+                        width: 400px;
+                    }
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .rate-position-2 {
+                        position: relative;
+                        right: 12%;
+                    }
+                }
+                
+                .p1 {
+                    color: hsl(300, 43%, 22%);
+                    display: inline-flex;
+                    font-size: 13px;
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .p1-desktop {
+                        margin-left: 15px;
+                    }
+                }
+                
+                .costumer-rates {
+                    text-align: center;
+                }
+                
+                .costumer-rates-inline {
+                    display: inline-flex;
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .costumer-list {
+                        display: flex;
+                        padding: 0% 9% 5% 0%;
+                    }
+                }
+                
+                .costumer-box {
+                    background-color: hsl(300, 43%, 22%);
+                    border-radius: 3%;
+                    padding: 30px;
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .costumer-box-desktop {
+                        margin: 0px 20px 0px 0px;
+                    }
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .position2 {
+                        position: relative;
+                        top: 2em;
+                    }
+                }
+                
+                @media only screen and (max-width: 900px) {
+                    .position-mobile {
+                        margin-top: 20px;
+                    }
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .position3 {
+                        position: relative;
+                        top: 4em;
+                    }
+                }
+                
+                .img-title {
+                    display: flex;
+                }
+                
+                .costumer-img {
+                    border-radius: 50%;
+                    width: 15%;
+                }
+                
+                .title-rate {
+                    padding-left: 15px;
+                }
+                
+                .p2 {
+                    margin: 4px;
+                    font-weight: 500;
+                    color: white
+                }
+                
+                .descr {
+                    line-height: 1.5;
+                    color: white;
+                    text-align: initial;
+                }
+                
+                @media only screen and (min-width: 900px) {
+                    .descr-desktop {
+                        width: 300px;
+                    }
+                }
+                
+                .atributes {
+                    margin-top: 50px;
+                }
